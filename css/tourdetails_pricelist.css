@@ -1,0 +1,132 @@
+
+.peak-departure-trip-availability .filter-container {
+    margin-bottom: 15px;
+}
+.peak-departure-trip-availability .filter-container h6 {
+    color: #fff;
+    display: inline-block;
+}
+
+
+/*@media screen and (min-width: 768px) {*/
+.peak-departure-trip-availability .filter-container {
+    background-color: #30718f;
+    margin-bottom: 0;
+    padding: 10px 30px;
+}
+.peak-departure-trip-availability .filter-container .dropdown {
+    display: inline-block;
+}
+
+
+    .departure-price-list .departure-info-list .departure-info .info-date .pointing-down {
+        color: #006666;
+        font-size: 500%;
+        position: absolute;
+        right: 8px;
+        top: 15px;
+    }
+/*}*/
+
+.departure-ribbon-desktop .departure-info-list .departure-info .info-wrapper {
+    border-bottom: 2px solid #d6d6d6;
+    border-left: 2px solid #d6d6d6;
+    border-right: 2px solid #d6d6d6;
+    padding: 15px;
+}
+.departure-price-list .departure-info-list .departure-info .info-wrapper .inner-wrapper {
+    background-color: #f2f2f2;
+    border-bottom: medium none;
+    border-left: 1px solid #d6d6d6;
+    border-right: 1px solid #d6d6d6;
+    padding: 25px 1% 0;
+}
+
+.departure-price-list .info-date {
+    background-color: #006666;
+    color: #FFFFFF;
+    padding: 10px 5px;
+}
+.departure-price-list .row-gray {
+    border: 1px solid #d6d6d6;
+}
+.departure-price-list .row-gray .collapsed {
+    background-color: #f2f2f2;
+    color: inherit;
+}
+.departure-price-list .row-white {
+    border: 1px solid #d6d6d6;
+}
+.departure-price-list .row-white .collapsed {
+    background-color: transparent;
+    color: inherit;
+}
+
+.departure-price-list .departure-info-list .departure-info .info-date {
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+.departure-price-list .departure-info-list .departure-info .info-date .label-column .label, .departure-price-list .departure-info-list .departure-info .info-date .label-column .left-places-label {
+    display: none;
+}
+
+.departure-price-list .departure-info-list .departure-info .info-date .label-column .places-left {
+    color: #cc0033;
+}
+.departure-price-list .departure-info-list .departure-info .info-date .departure-price .price {
+    display: none;
+}
+
+.departure-price-list .departure-info-list .departure-info .info-date .arrow-right {
+   padding-right: 2px;
+}
+
+@media screen and (min-width: 1200px) {
+.departure-price-list .departure-info-list .departure-info .info-date .pointing-down {
+    right: 27px;
+    top: 0;
+}
+}
+
+
+.departure-price-list .departure-info-list .departure-info .info-date h5 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.departure-price-list .departure-info-list .departure-info .info-date h5 i.fa-chevron-circle-down {
+    display: none;
+    font-size: 18px;
+}
+.departure-price-list .departure-info-list .departure-info .info-date h5 i.fa-chevron-circle-up {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.departure-price-list .departure-info-list .departure-info .info-date h5 .price {
+    font-weight: bold;
+	color: #cc0033;
+}
+
+.departure-price-list .departure-info-list .departure-info .info-date.collapsed .pointing-down {
+    display: none;
+}
+.departure-price-list .departure-info-list .departure-info .info-date.collapsed .arrow-right {
+    display: none;
+}
+.departure-price-list .departure-info-list .departure-info .info-date.collapsed h5 i.fa-chevron-circle-down {
+    color: #990000;
+    display: inline-block;
+}
+
+.departure-price-list .departure-info-list .departure-info .info-date.collapsed h5 i.fa-chevron-circle-up {
+    display: none;
+}
+.departure-price-list .departure-info-list .departure-info .info-date.collapsed .label-column .label, .departure-price-list .departure-info-list .departure-info .info-date.collapsed .label-column .left-places-label {
+    display: inline-block;
+}
+
+.departure-price-list .departure-info-list .departure-info .info-date.collapsed .departure-price .price {
+    display: inline-block;
+}

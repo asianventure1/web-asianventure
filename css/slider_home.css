@@ -1,0 +1,93 @@
+/* jCarousel slide 5 cái*/
+
+.jcarousel-skin-tango .jcarousel-container {
+    margin:0;
+}
+
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+    padding: 0;
+}
+
+.jcarousel-skin-tango .jcarousel-clip {
+    overflow: hidden;
+}
+
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+    margin: 10px 21px 0 0;
+    padding: 0 0;
+    width: 386px;
+    overflow: hidden;
+    position: relative;
+    display: inline;
+    box-shadow: 0px 0px 3px 3px #e6e6e6;
+}
+
+@media (max-width: 568px) {
+    .jcarousel-skin-tango .jcarousel-item-horizontal {
+        width: 320px;
+        box-shadow: 0px 0px 3px 3px #e6e6e6;
+    }
+}
+/**
+ *  Horizontal Buttons
+ */
+
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+    position: absolute;
+    top: 40%;
+    margin-top: -121px;
+    right: 0px;
+    width: 25px;
+    height: 42px;
+    cursor: pointer;
+    background: #000 url(../img/common/rightArrow.png) no-repeat center;
+}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-horizontal:focus {
+    opacity: 0.7;
+}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal:active {
+    opacity: 0.7;
+}
+
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:focus,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+    opacity: 0.5;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 40%;
+    margin-top: -121px;
+    left: 0px;
+    width: 25px;
+    height: 42px;
+    cursor: pointer;
+    background: #000 url(../img/common/leftArrow.png) no-repeat center;
+}
+
+.jcarousel-skin-tango .jcarousel-item {
+    height: auto;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-prev-horizontal:focus {
+    opacity: 0.7;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+    opacity: 0.7;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:focus,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    opacity: 0.5;
+}
