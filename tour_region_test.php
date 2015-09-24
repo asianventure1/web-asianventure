@@ -613,125 +613,24 @@
 <!-- Begin Body Content-->
 <div class="container margintop30 bs-section">
     <div class="col-md-8 content_800" style="padding-right: 24px">
-        <div class="row">
-            <div class="col-md-12">
-                <img width="100%" height="300" src="img/portfolio/halong_1246x320.jpg">
-                <ul style="background: rgba(255,255,255,0.9); height: 45px; width: 220px; position: absolute; top:262px; left:
-            60px;border: 1px solid #f2f2f2; border-radius: 5px; border-bottom: none">
-                    <li><p class="text-center color-blue font-bold paddingtop10 font16">HANOI TOURS</p></li>
-                </ul>
-            </div>
-        </div>
-        <!--intro-->
-        <div class="row bs-section">
-            <div class="col-md-4 nopaddingright">
-                <h2 class="font22 font-normal color-green">Local  Tours</h2>
-                <div class="tours-overview">
-                    <div class="introcontent">
-                        <p>Find exclusive tours in and round Hanoi on Asianventure.com. Showing you all the best Hanoi tour price promotions across multiple theme trips, there is sure to be one that suit your budget and travel schedule. Don't miss all the great tour deals in Hanoi. All featured  tours are based on different service levels   ...<a href="" class="read-more"> Read more</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 nopaddingright" >
-                <h2 class="font22 font-normal color-green">Book Tours</h2>
-                <div class="tours-overview">
-                    <div class="introcontent1">
-                        <p>Book your Hanoi vacation securely online and know that the Asianventure.com 24/7 customer support is always a click or call away. View all available tour deals in one place, from economy to comfort and luxury accommodation, we give you all the options. Browse promotions and book.
-                            <a href="" class="read-more"> Read more</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 nopaddingright">
-                <h2 class="font22 font-normal color-green">Hanoi Guide</h2>
-                <div class="tours-overview"  style="border-right: none">
-                    <div class="introcontent2">
-                        <p>You'll find the complete travel guide of Hanoi , including the major attractions, tour activities, night life , travel tips, Hanoi photos, map, Hanoi restaurants to sample the local foods, Hanoi hotels guidance, emergency contact and many more to build a perfect trip for your vacation in  Hanoi,..<a href="" class="read-more"> Read more</a></p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <!--see more vietnam tours -->
-        <div class="row bs-section clear margintop20">
-            <div class="col-md-12 mobile_marginleft4am">
-                <div class="jcarousel-skin-tango marginrightam12">
-                    <div class="jcarousel-container jcarousel-container-horizontal">
-                        <div class="jcarousel-clip jcarousel-clip-horizontal">
-                            <ul id="mycarousel" class="jcarousel-list jcarousel-list-horizontal">
-                                <li class="jcarousel-item fix-w-h">
-                                    <img src="img/common/tours_slider1.jpg">
-                                    <h6 class="title1">Ho Chi Minh</h6>
-                                    <h4 class="title2">20 Tours</h4>
-
-                                </li>
-
-                                <li class="jcarousel-item jcarousel-item-horizontal fix-w-h"">
-                                <img src="img/common/tours_slider2.jpg">
-                                <h6 class="title1">muine</h6>
-                                <h4 class="title2">20 Tours</h4>
-                                </li>
-
-                                <li class="jcarousel-item jcarousel-item-horizontal fix-w-h"">
-                                <img src="img/common/tours_slider3.jpg">
-                                <h6 class="title1">sapa</h6>
-                                <h4 class="title2">20 Tours</h4>
-                                </li>
-
-                                <li class="jcarousel-item jcarousel-item-horizontal fix-w-h"">
-                                <img src="img/portfolio/hoian_200x145.jpg">
-                                <h6 class="title1">hoian</h6>
-                                <h4 class="title2">20 Tours</h4>
-                                </li>
-
-                                <li class="jcarousel-item jcarousel-item-horizontal fix-w-h"">
-                                <img src="img/portfolio/sapa_200x145.jpg">
-                                <h6 class="title1">mai chau</h6>
-                                <h4 class="title2">20 Tours</h4>
-                                </li>
-
-                                <li class="jcarousel-item jcarousel-item-horizontal fix-w-h"">
-                                <img src="img/portfolio/dalat_200x145.jpg">
-                                <h6 class="title1">dalat</h6>
-                                <h4 class="title2">20 Tours</h4>
-                                </li>
-
-                                <li class="jcarousel-item jcarousel-item-horizontal fix-w-h"">
-                                <img src="img/portfolio/hochiminh_200x145.jpg">
-                                <h6 class="title1">Ho Chi Minh</h6>
-                                <h4 class="title2">20 Tours</h4>
-                                </li>
-
-                                <li class="jcarousel-item jcarousel-item-horizontal fix-w-h"">
-                                <img src="img/portfolio/mekong_200x145.jpg">
-                                <h6 class="title1">mekong</h6>
-                                <h4 class="title2">20 Tours</h4>
-                                </li>
-
-                                <li class="jcarousel-item jcarousel-item-horizontal fix-w-h"">
-                                <img src="img/portfolio/cuchi_200x145.jpg" >
-                                <h6 class="title1">cu chi</h6>
-                                <h4 class="title2">20 Tours</h4>
-                                </li>
-
-                                <li class="jcarousel-item jcarousel-item-horizontal fix-w-h"">
-                                <img src="img/portfolio/phuquoc_200x145.jpg">
-                                <h6 class="title1">phu quoc</h6>
-                                <h4 class="title2">20 Tours</h4>
-                                </li>
-
-                            </ul>
-
+        <div class="b bs-section">
+            <div style="padding: 5px;height: 100%; display:table;">
+                <div class="col-md-11" style="border-right:1px solid #cccccc; min-height: 100px">
+                    <div class="row">
+                        <div class="col-md-1" style="background: #cccccc; padding: 20px 20px">
+                            <p style="font-size: 48px">1</p>
                         </div>
-
-                        <div class="jcarousel-prev jcarousel-prev-horizontal" style="display: block;"></div>
-
-                        <div class="jcarousel-next jcarousel-next-horizontal" style="display: block;"></div>
-
+                        <div class="col-md-2" style="background: #cccccc;">
+                            <img src="img/common/tour_homepage2.jpg" width="130">
+                        </div>
+                        <div class="col-md-9" style="background: #cccccc;">
+                            nunquam locus adelphis Lura fortis ionicis tormento est.Est azureus armarium, cesaris.
+                        </div>
                     </div>
-
                 </div>
-
+                <div class="col-md-1">
+                    Sunt cannabises desiderium fortis, fatalis guttuses.
+                </div>
             </div>
         </div>
     </div>
@@ -805,100 +704,10 @@
     </div>
 </div>
 
+
 <!--End Body Content-->
 
-<!--begin mobile version-->
 
-<!--end mobile version-->
-<!-- Footer -->
-<div class="footer" style="border-top: none">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="col-md-6">
-                    <div class="col-md-6 col-xs-6 footerpadding">
-                        <h5>ASIANVENTURE</h5>
-                        <ul>
-                            <li style="width: 100%"><a href="http://www.asianventure.com/common/profile.html">About
-                                    Company</a></li>
-                            <li><a href="http://www.asianventure.com/common/profile.html">About us</a></li>
-                            <li><a href="#">Awards</a></li>
-                            <li><a href="http://www.asianventure.com/common/asianventure.html">Why Asianventure</a></li>
-                            <li><a href="#">Responsible Travel</a></li>
-                            <li><a href="#">Carrier</a></li>
-                            <li><a href="#">International Offices</a></li>
-                            <li><a href="http://www.asianventure.com/common/sitemap.html">Sitemap</a></li>
-                            <li><a href="http://www.asianventure.com/common/frmcontact.html">Contact us</a></li>
-                        </ul>
-
-                    </div>
-                    <div class="col-md-6 col-xs-6 footerpadding">
-                        <h5>DESTINATION</h5>
-                        <ul>
-                            <li><a href="http://www.asianventure.com/vietnam.html">Vietnam</a></li>
-                            <li><a href="http://www.asianventure.com/laos.html">Laos</a></li>
-                            <li><a href="http://www.asianventure.com/cambodia.html">Cambodia</a></li>
-                            <li><a href="http://www.asianventure.com/thailand.html">Thailand</a></li>
-                            <li><a href="http://www.asianventure.com/myanmar.html">Myanmar</a></li>
-                            <li><a href="http://www.asianventure.com/china.html">China</a></li>
-                        </ul>
-
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="col-md-6 col-xs-12 footerpadding1">
-                        <h5>COMMUNITY</h5>
-                        <ul>
-                            <li><a href="http://www.asianventure.com/testimonial/index.html">Testimonials</a></li>
-                            <li><a href="http://www.asianventure.com/common/condition.html">Booking Conditions</a></li>
-                            <li><a href="#">Travel Blog</a></li>
-                            <li><a href="http://www.asianventure.com/photo/index.html">Gallery</a></li>
-                            <li><a href="http://www.asianventure.com/vietnam/guide/index.html">Travel Guide</a></li>
-                            <li><a href="#">Travel Style</a></li>
-                            <li><a href="#">Inspiration</a></li>
-
-                        </ul>
-
-                    </div>
-                    <div class="col-md-6 col-xs-12 footerpadding1">
-                        <a href="http://www.skype.com/asianventure/">
-                            <h5 style="color: #FFFFFF; padding-bottom: 10px">Follow us</h5>
-                        </a>
-                        <button class="btn btn-xs btn-skype"><i class="fa fa-facebook"></i> Skype</button>
-                        <a href="https://twitter.com/asianventure">
-                            <button class="btn btn-xs btn-twitter"><i class="fa fa-twitter"></i> Twitter</button>
-                        </a>
-                        <a href="https://www.facebook.com/asianventure">
-                            <button class="btn btn-xs btn-facebook"><i class="fa fa-facebook"></i> Facebook</button>
-                        </a>
-                        <ul class="headoffie">
-                            <h5 style="margin: 0; padding: 0; color: #ffffff">Head office</h5>
-                            <li>Address: <span> Asianventure Tours Co.Ltd</span><br>
-                                <span style="padding-left: 59px">110 Ba Trieu, Hanoi, Vietnam</span></li>
-                            <li>Phone: <span style="padding-left: 10px">+84 (0) 4 39438550 - 1</span><br>
-                                <span style="padding-left: 59px">+84 (0) 944567788 (hotline)</span>
-                            </li>
-                            <li>Fax: <span style="padding-left:29px">+84 (0) 4 39438552</span></li>
-                            <li>Email: <span style="padding-left:22px">info@asianventure.com</span></li>
-
-                        </ul>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</div>
-<div class="row footer1">
-    <div class="container">
-        <div style="height: 40px; margin: 0; padding: 0">
-            <a href=""> Asianventure Tours &copy; 2015 - 2020</a> | <a
-                href="http://www.asianventure.com/common/condition.html"> Terms & Conditions</a> | <a
-                href="http://www.asianventure.com/common/privacy.html"> Privacy Policy</a>
-        </div>
-    </div>
-</div>
 <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
 <div class="scroll-top page-scroll visible-xs visble-sm">
     <a class="btn btn-grey" href="#page-top">
