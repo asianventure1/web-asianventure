@@ -629,7 +629,7 @@
         background: #e01a33; }
 
     .hotel-list {
-            margin-top: 30px;
+            margin-top: 3px;
         }
         .listing-style3 .box::after, .listing-style3.box::after {
             clear: both;
@@ -1121,10 +1121,13 @@
         <div class="b bs-section">
         <div class="hotel-list listing-style3 hotel">
         <article class="box">
-            <figure class="col-sm-5 col-md-4">
-                <a class="hover-effect popup-gallery" href="ajax/slideshow-popup.html" title="">
-                    <img width="270" height="160" src="http://placehold.it/270x160" alt=""></a>
-            </figure>
+            <div style="width: 100px; float: left; background: #cc9999; min-height: 130px; margin-left:3px; margin-right:3px">
+               <p>1</p>
+            </div>
+            <div class="col-sm-5 col-md-2">
+                <a href="" title="">
+                    <img width="140" height="130" src="img/common/country_hanoi.jpg" alt=""></a>
+            </div>
             <div class="details col-sm-7 col-md-8">
                 <div>
                     <div>
