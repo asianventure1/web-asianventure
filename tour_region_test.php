@@ -153,511 +153,127 @@
         });
 
     </script>
-    <style>
-    /* 2.15. Listing Styles ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-    .listing-style1.hotel .box-title:after, .listing-style1.cruise .box-title:after {
-        display: table;
-        content: "";
-        clear: both; }
-    .listing-style1.hotel .feedback, .listing-style1.cruise .feedback {
+
+<style>
+
+    .bpt-item {
+        background-color: white;
+        border-color: #d0d0d0;
+        border-image: none;
+        border-style: solid;
+        border-width: 1px 1px 1px;
+        float: left;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .bpt-item .col-content, .bpt-item .col-price {
+        background-color: #fff;
+    }
+    .bpt-item .col-content {
+        border-right: 1px solid #ddd;
+        float: left;
         margin: 5px 0;
-        border-top: 1px solid #f5f5f5;
-        padding-top: 5px;
-        border-bottom: 1px solid #f5f5f5; }
-    .listing-style1.hotel .feedback .review, .listing-style1.cruise .feedback .review {
-        display: block;
-        float: right;
-        text-transform: uppercase;
-        font-size: 0.8333em;
-        color: #9e9e9e; }
-    .listing-style1.hotel .five-stars-container, .listing-style1.cruise .five-stars-container {
-        color: #dbdbdb; }
-    .listing-style1.hotel .action .button:last-child, .listing-style1.cruise .action .button:last-child {
-        float: right; }
-    .listing-style1.hotel .action .button, .listing-style1.cruise .action .button {
-        width: 45%;
-        padding: 0;
-        text-align: center; }
-    .listing-style1.hotel .action .button + .button, .listing-style1.cruise .action .button + .button {
-        width: 50%; }
-    .listing-style1.flight .details, .listing-style1.car .details {
-        padding: 15px 0 0 !important;
-        text-transform: uppercase; }
-    .listing-style1.flight .details .box-title, .listing-style1.car .details .box-title {
-        text-transform: none; }
-    .listing-style1.flight .details .box-title:after, .listing-style1.car .details .box-title:after {
-        display: table;
-        content: "";
-        clear: both; }
-    .listing-style1.flight .action .button, .listing-style1.car .action .button {
-        text-align: center; }
-    .listing-style1.flight figure img {
-        max-width: 100%; }
-    .listing-style1.flight .details .time {
-        margin: 10px 0;
-        border-top: 1px solid #f5f5f5;
-        border-bottom: 1px solid #f5f5f5;
-        letter-spacing: 0.04em; }
-    .listing-style1.flight .details .time:after {
-        display: table;
-        content: "";
-        clear: both; }
-    .listing-style1.flight .details .time > div {
-        width: 50%;
+        padding: 1px 0 1px 5px;
+        width: 85%;
+    }
+
+    .bpt-item .col-price {
         float: left;
-        padding: 7px 0; }
-    .listing-style1.flight .details .time > div > .icon {
-        font-size: 16px;
-        float: left; }
-    .listing-style1.flight .details .time > div > .icon + div {
-        padding-left: 24px; }
-    .listing-style1.flight .details .time > div:first-child {
-        border-right: 1px solid #f5f5f5; }
-    .listing-style1.flight .details .time > div + div {
-        padding-left: 20px; }
-    .listing-style1.flight .details .duration {
-        font-size: 0.8333em;
-        text-align: center;
-        letter-spacing: 0.04em; }
-    .listing-style1.car figure img {
-        max-width: 100%; }
-    .listing-style1.car .details .mile {
-        font-size: 0.8333em;
-        text-align: center; }
-    .listing-style1.car .details .amenities {
-        text-align: center;
-        border-top: 1px solid #f5f5f5;
-        border-bottom: 1px solid #f5f5f5;
-        margin: 10px 0;
-        padding: 10px 0 6px; }
-    .listing-style1.cruise .time {
-        padding-top: 5px; }
-    .listing-style1.cruise .time [class^="soap-icon"] {
+        margin-top: 10px;
+        padding: 15px 10px 5px;
+        width: 15%;
+    }
+
+    .bpt-item .col-img {
         float: left;
-        font-size: 20px; }
-    .listing-style1.cruise .time > div {
-        margin-bottom: 10px !important; }
-    .listing-style1.cruise .time > div:first-child {
-        border-right: 1px solid #f5f5f5; }
-    .listing-style1.cruise .time > div > div {
-        padding-left: 20px; }
-    .listing-style1.cruise .action a.button {
-        float: none !important; }
-    .listing-style1.cruise .description {
-        text-align: center;
-        font-size: 0.8333em;
-        text-transform: uppercase; }
-
-    .listing-style1.flight .box, .listing-style1.flight.box, .listing-style1.car .box, .listing-style1.car.box, .listing-style2.flight .box, .listing-style2.flight.box, .listing-style2.car .box, .listing-style2.car.box {
-        padding: 15px; }
-    .listing-style1.flight figure, .listing-style1.car figure, .listing-style2.flight figure, .listing-style2.car figure {
-        background: #f5f5f5;
-        display: table;
-        /*height: 140px;*/
-        width: 100%;
-        table-layout: fixed; }
-    .listing-style1.flight figure > a, .listing-style1.flight figure > span, .listing-style1.car figure > a, .listing-style1.car figure > span, .listing-style2.flight figure > a, .listing-style2.flight figure > span, .listing-style2.car figure > a, .listing-style2.car figure > span {
-        display: table-cell;
-        vertical-align: middle;
-        text-align: center; }
-    .listing-style1.flight figure img, .listing-style1.car figure img, .listing-style2.flight figure img, .listing-style2.car figure img {
-        width: auto; }
-
-    .listing-style1.flight .icon, .listing-style3.flight .icon {
-        font-size: 16px; }
-    .listing-style1.flight .take-off > .icon, .listing-style3.flight .take-off > .icon {
-        -webkit-transform: rotate(-25deg);
-        -moz-transform: rotate(-25deg);
-        -ms-transform: rotate(-25deg);
-        -o-transform: rotate(-25deg);
-        transform: rotate(-25deg);
-        display: inline-block; }
-    .listing-style1.flight .landing > .icon, .listing-style3.flight .landing > .icon {
-        -webkit-transform: rotate(25deg);
-        -moz-transform: rotate(25deg);
-        -ms-transform: rotate(25deg);
-        -o-transform: rotate(25deg);
-        transform: rotate(25deg);
-        display: inline-block; }
-    .listing-style1.car .amenities ul, .listing-style3.car .amenities ul {
-        display: inline-block;
-        color: #9e9e9e; }
-    .listing-style1.car .amenities ul li, .listing-style3.car .amenities ul li {
+        width: 40%;
+    }
+    .bpt-item .col-img img {
+        border: 1px solid #eee;
+    }
+    .bpt-item-compact .col-img img, .bpt-similar img {
+        border: 1px solid #eee;
+        margin-bottom: 15px;
+    }
+    .bpt-item .col-info {
         float: left;
-        text-align: center;
-        padding: 0 5px;
-        cursor: default;
-        font-size: 0.8333em; }
-    .listing-style1.car .amenities ul li .glyphicon, .listing-style1.car .amenities ul li [class^="soap-icon"], .listing-style3.car .amenities ul li .glyphicon, .listing-style3.car .amenities ul li [class^="soap-icon"] {
-        display: block;
-        font-size: 16px;
-        color: #d9d9d9;
-        overflow: hidden; }
-    .listing-style1.car .amenities ul li .glyphicon, .listing-style3.car .amenities ul li .glyphicon {
-        line-height: 25px; }
-    .listing-style1.car .amenities ul li .glyphicon:before, .listing-style3.car .amenities ul li .glyphicon:before {
-        font-size: 12px; }
-    .listing-style1.car .amenities ul li:hover, .listing-style1.car .amenities ul li:hover .glyphicon, .listing-style1.car .amenities ul li:hover [class^="soap-icon"], .listing-style3.car .amenities ul li:hover, .listing-style3.car .amenities ul li:hover .glyphicon, .listing-style3.car .amenities ul li:hover [class^="soap-icon"] {
-        color: #01b7f2; }
-    .listing-style1.car .amenities ul li:hover [class^="soap-icon"]:before, .listing-style3.car .amenities ul li:hover [class^="soap-icon"]:before {
-        -webkit-animation: toTopFromBottom 0.35s forwards;
-        -moz-animation: toTopFromBottom 0.35s forwards;
-        animation: toTopFromBottom 0.35s forwards; }
-    .listing-style1.car .amenities ul:after, .listing-style3.car .amenities ul:after {
-        display: table;
-        content: "";
-        clear: both; }
-
-    .listing-style2 .box .box-title {
-        margin-bottom: 0; }
-    .listing-style2 a.button {
-        margin-top: 6px; }
-    .listing-style2.flight .details {
-        padding: 12px 2px 0; }
-    .listing-style2.flight img {
-        width: auto;
-        max-width: 100%; }
-
-    .listing-style3 .box, .listing-style3.box {
-        background: #fff;
-        margin-bottom: 30px; }
-    .listing-style3 .box > *, .listing-style3.box > * {
-        padding: 0; }
-    .listing-style3 .box:after, .listing-style3.box:after {
-        display: table;
-        clear: both;
-        content: ""; }
-    .listing-style3 .review {
-        display: block;
-        text-transform: uppercase;
-        font-size: 0.8333em;
-        color: #9e9e9e; }
-    .listing-style3 .five-stars-container, .listing-style3 .review {
-        line-height: 1em; }
-    .listing-style3 .five-stars-container {
-        color: #dbdbdb; }
-    .listing-style3 [class^="soap-icon"].circle {
-        color: #d9d9d9;
-        cursor: default;
-        font-size: 16px;
-        overflow: hidden; }
-    .listing-style3 [class^="soap-icon"].circle:hover {
-        color: #01b7f2; }
-    .listing-style3 [class^="soap-icon"].circle:hover:before {
-        -webkit-animation: toTopFromBottom 0.35s forwards;
-        -moz-animation: toTopFromBottom 0.35s forwards;
-        animation: toTopFromBottom 0.35s forwards; }
-    .listing-style3 .price {
-        float: none;
-        text-align: center; }
-    .listing-style3.hotel figure img {
-        width: 100%;
-        height: auto; }
-    .listing-style3.hotel .box-title {
-        margin: 0;
-        float: left; }
-    .listing-style3.hotel .box-title i {
-        font-size: 15px; }
-    .listing-style3.hotel .amenities {
-        float: right; }
-    .listing-style3.hotel .details {
-        padding: 15px 0 15px 20px;
-        display: table; }
-    .listing-style3.hotel .details [class^="soap-icon"].circle {
-        margin-right: 5px;
-        margin-top: 5px; }
-    .listing-style3.hotel .details > * {
-        display: table-row; }
-    .listing-style3.hotel .details > * > * {
-        display: table-cell;
-        padding: 10px 15px 0;
-        text-align: center;
-        vertical-align: middle; }
-    .listing-style3.hotel .details > * > *:first-child {
-        border-right: 1px solid #f5f5f5;
-        padding-left: 0;
+        padding-left:1px;
         padding-right: 15px;
-        text-align: left; }
-    .listing-style3.hotel .details > * > *:last-child {
-        width: 120px; }
-    .listing-style3.hotel .details > *:first-child > * {
-        /*border-bottom: 1px solid #f5f5f5;*/
-        padding-top: 0;
-        padding-bottom: 10px; }
-    .listing-style3.hotel .details .button {
-        margin-top: 8px; }
-    .listing-style3.flight .box, .listing-style3.flight.box {
-        padding: 15px;
-        display: table;
-        width: 100%;
-        table-layout: fixed; }
-    .listing-style3.flight figure {
-        display: table-cell;
-        background: #f5f5f5;
-        vertical-align: middle;
-        float: none; }
-    .listing-style3.flight figure span {
-        text-align: center;
-        display: block; }
-    .listing-style3.flight figure span img {
-        max-width: 60px;
-        height: auto; }
-    .listing-style3.flight .box-title {
-        float: left; }
-    .listing-style3.flight .stop:hover {
-        background: #fdb714; }
-    .listing-style3.flight .amenities {
-        margin-bottom: 10px;
-        float: right; }
-    .listing-style3.flight .details {
-        display: table-cell;
-        padding-left: 15px;
-        float: none; }
-    .listing-style3.flight .details .details-wrapper {
-        display: table;
-        width: 100%; }
-    .listing-style3.flight .details .details-wrapper > * {
-        display: table-row; }
-    .listing-style3.flight .details .details-wrapper > * > * {
-        display: table-cell;
-        padding: 15px 15px 0 15px; }
-    .listing-style3.flight .details .details-wrapper > * > *:first-child {
-        border-right: 1px solid #f5f5f5;
-        padding-left: 0; }
-    .listing-style3.flight .details .details-wrapper > * > *:last-child {
-        text-align: center;
-        padding-right: 0; }
-    .listing-style3.flight .details .details-wrapper > *:first-child > * {
-        border-bottom: 1px solid #f5f5f5;
-        padding-top: 0; }
-    .listing-style3.flight .details .details-wrapper .box-title {
-        margin: 0 10px 15px 0; }
-    .listing-style3.flight .details .details-wrapper [class^="soap-icon"].circle {
-        margin-right: 5px; }
-    .listing-style3.flight .details .details-wrapper [class^="col-"], .listing-style3.flight .details .details-wrapper [class*=" col-"] {
-        padding: 0; }
-    .listing-style3.flight .details .details-wrapper .time > div {
-        border-right: 1px solid #f5f5f5;
-        padding-left: 15px; }
-    .listing-style3.flight .details .details-wrapper .time > div:last-child {
-        border-right: none; }
-    .listing-style3.flight .details .details-wrapper .time > div:first-child {
-        padding-left: 0; }
-    .listing-style3.flight .details .details-wrapper .time > div > div {
-        padding-left: 25px; }
-    .listing-style3.flight .details .details-wrapper .time .icon {
-        float: left;
-        padding: 0;
-        font-size: 16px; }
-    .listing-style3.flight .details .details-wrapper .time {
-        letter-spacing: 0.04em; }
-    .listing-style3.flight .details .details-wrapper .action {
-        vertical-align: top; }
-    .listing-style3.car .box, .listing-style3.car.box {
-        display: table;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        width: 100%;
-        table-layout: fixed; }
-    .listing-style3.car figure {
-        display: table-cell;
-        vertical-align: middle;
-        float: none;
-        text-align: center;
-        border-right: 1px solid #f5f5f5; }
-    .listing-style3.car figure img {
-        max-width: 80%;
-        height: auto; }
-    .listing-style3.car .details {
-        display: table-cell;
-        float: none; }
-    .listing-style3.car .details .box-title {
-        float: left; }
-    .listing-style3.car .details .logo {
-        margin: 3px 0 0 8px;
-        float: left;
-        border-left: 1px solid #e1e1e1;
-        padding-left: 8px; }
-    .listing-style3.car .details .logo img {
-        max-height: 20px;
-        width: auto; }
-    .listing-style3.car .details .amenities {
-        margin-top: 20px; }
-    .listing-style3.car .details .character {
-        text-align: right;
-        text-transform: uppercase;
-        font-size: 0.8333em;
-        border-right: 1px solid #f5f5f5; }
-    .listing-style3.car .details .character dd {
-        margin-bottom: 5px; }
-    .listing-style3.car .details .character dl {
-        margin-bottom: 0; }
-    .listing-style3.car .details .action {
-        text-align: center;
-        text-transform: uppercase; }
-    .listing-style3.car .details .action .button {
-        margin-top: 30px; }
-    .listing-style3.cruise figure img {
-        width: 100%;
-        height: auto; }
-    .listing-style3.cruise .details {
-        padding: 15px 20px;
-        text-transform: uppercase; }
-    .listing-style3.cruise .details img {
-        max-width: 100%;
-        height: auto; }
-    .listing-style3.cruise .details .box-title {
-        text-transform: none;
-        margin-bottom: 10px; }
-    .listing-style3.cruise .details .character {
-        font-size: 0.8333em;
-        border-top: 1px solid #f5f5f5;
-        border-bottom: 1px solid #f5f5f5;
-        margin-bottom: 15px;
-        display: table;
-        width: 100%;
-        table-layout: fixed; }
-    .listing-style3.cruise .details .character > div {
-        display: table-cell;
-        float: none;
-        vertical-align: middle;
-        margin: 0;
-        padding-top: 12px;
-        padding-bottom: 12px;
-        border-left: 1px solid #f5f5f5; }
-    .listing-style3.cruise .details .character > div:first-child {
-        border: none;
-        padding-left: 0; }
-    .listing-style3.cruise .details .character > div:last-child {
-        padding-right: 0; }
-    .listing-style3.cruise .details .character [class^="soap-icon"] {
-        font-size: 18px;
-        float: left; }
-    .listing-style3.cruise .details .character .cruise-logo {
-        padding: 0;
-        text-align: left; }
-    .listing-style3.cruise .details .character .cruise-logo img {
-        max-width: 90%;
-        width: auto;
-        height: auto; }
-    .listing-style3.cruise .details .character .date > div, .listing-style3.cruise .details .character .departure > div {
-        padding-left: 20px;
-        line-height: 1.1667em; }
-    .listing-style3.cruise .details .review {
-        line-height: 1.6667em; }
-    .listing-style3.cruise .details .review .five-stars-container {
-        float: left;
-        margin-right: 10px; }
-    .listing-style3.cruise .details .review span {
-        display: block;
-        float: left; }
+        width: 50%;
+    }
 
-    .tab-container .tab-pane > .listing-style3 .details {
-        padding-right: 0; }
-
-    /* 2.16. Pricing Tables ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-    .pricing-table {
-        padding: 20px;
-        background: #fff;
-        /* colored */ }
-    .pricing-table .header {
-        border-bottom: 1px solid #f5f5f5; }
-    .pricing-table .header > i {
+    .bpt-item .col-prices {
         float: left;
-        font-size: 16px;
-        margin: 3px 8px 0 0; }
-    .pricing-table .header .box-title {
+        margin-top: 30px;
+        padding-left: 3px;
+        padding-right: 3px;
+        width: 10%;
+    }
+    .bpt-item .col-label, .bpt-item .col-text {
         float: left;
-        line-height: 1.3333em;
-        margin-bottom: 20px; }
-    .pricing-table .header .box-title small {
-        text-transform: uppercase;
-        display: block;
-        font-size: 0.6em; }
-    .pricing-table .description {
-        margin: 15px 0; }
-    .pricing-table .features {
-        margin-bottom: 15px;
-        text-transform: uppercase; }
-    .pricing-table .features li {
-        margin-top: 1px;
-        background: #f5f5f5;
-        font-size: 0.9167em;
-        padding-left: 20px;
-        line-height: 40px; }
-    .pricing-table.green, .pricing-table.blue, .pricing-table.yellow, .pricing-table.red {
-        color: #fff; }
-    .pricing-table.green .box-title, .pricing-table.green .box-title small, .pricing-table.green .price, .pricing-table.green .price small, .pricing-table.blue .box-title, .pricing-table.blue .box-title small, .pricing-table.blue .price, .pricing-table.blue .price small, .pricing-table.yellow .box-title, .pricing-table.yellow .box-title small, .pricing-table.yellow .price, .pricing-table.yellow .price small, .pricing-table.red .box-title, .pricing-table.red .box-title small, .pricing-table.red .price, .pricing-table.red .price small {
-        color: #fff; }
-    .pricing-table.green .box-title small, .pricing-table.green .price small, .pricing-table.green .description, .pricing-table.blue .box-title small, .pricing-table.blue .price small, .pricing-table.blue .description, .pricing-table.yellow .box-title small, .pricing-table.yellow .price small, .pricing-table.yellow .description, .pricing-table.red .box-title small, .pricing-table.red .price small, .pricing-table.red .description {
-        filter: alpha(opacity=60);
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-        -moz-opacity: 0.6;
-        -khtml-opacity: 0.6;
-        opacity: 0.6; }
-    .pricing-table.green {
-        background: #98ce44; }
-    .pricing-table.green .header {
-        border-bottom-color: #91c63d; }
-    .pricing-table.green .features li {
-        background: #91c63d; }
-    .pricing-table.green .features li:before {
-        background: #98ce44; }
-    .pricing-table.yellow {
-        background: #fdb714; }
-    .pricing-table.yellow .header {
-        border-bottom-color: #f5b010; }
-    .pricing-table.yellow .features li {
-        background: #f5b010; }
-    .pricing-table.yellow .features li:before {
-        background: #fdb714; }
-    .pricing-table.blue {
-        background: #01b7f2; }
-    .pricing-table.blue .header {
-        border-bottom-color: #04afe7; }
-    .pricing-table.blue .features li {
-        background: #04afe7; }
-    .pricing-table.blue .features li:before {
-        background: #01b7f2; }
-    .pricing-table.red {
-        background: #e01a33; }
-    .pricing-table.red .header {
-        border-bottom-color: #d51a32; }
-    .pricing-table.red .features li {
-        background: #d51a32; }
-    .pricing-table.red .features li:before {
-        background: #e01a33; }
+        min-height: 1px;
+        padding-right: 10px;
+        position: relative;
+    }
+    .bpt-item .col-label {
+        padding-left: 10px;
+        width: 50%;
+    }
+    .bpt-item .col-text {
+        padding-left: 0;
+        width: 50%;
+    }
+    .bpt-item .item-name {
+        font-size: 20px;
+    }
+    .bpt-item .description {
+        color: #333;
+        line-height: 1em;
+        margin-top: 10px;
+    }
 
-    .hotel-list {
-            margin-top: 3px;
-        }
-        .listing-style3 .box::after, .listing-style3.box::after {
+
+    .outerContainer {
+        background-color: #cc9999;
+        display: table;
+        height: 105px;
+        width: 100px;
+        float: left;
+        margin: 0 3px 0 0;
+    }
+    .outerContainer .innerContainer {
+        display: table-cell;
+        margin: 0 auto;
+        text-align: center;
+        vertical-align: middle;
+        width: 100%;
+        color: #FFF;
+    }
+
+    @media (max-width: 766px) {
+        .bpt-item .col-content {
+            border: none;
+            width: 100%;
             clear: both;
-            content: "";
-            display: table;
         }
-        .listing-style3.hotel .details > * {
-            display: table-row;
+        .bpt-item .col-info {
+            float: left;
+            padding-left:1px;
+            padding-right: 15px;
+            width: 70%;
+        }
+        .bpt-item .col-prices {
+            width: 30%;
+            float: left;
+        }
+        .bpt-item .col-price {
+            width: 50%;
+            float: left;
         }
 
-        .listing-style3 .box > *, .listing-style3.box > * {
-            padding: 0;
-        }
-        .listing-style3.hotel .details {
-            display: table;
-            padding: 15px 0 15px 20px;
-        }
-        .listing-style3.hotel .box-title {
-            float: left;
-            margin: 0;
-        }
-        .box-title, .post-title, .post-meta, .author .name, .mile, .title, .s-title, .price, button, a.button, dl, label, span.info, .price-wrapper, ul.tabs a, .icon-box.style1, .icon-box.style2, .icon-box.style3 .description, .icon-box.style5, .search-results-title, .breadcrumbs {
-            letter-spacing: 0.04em;
-        }
-        .listing-style3.hotel .amenities {
-            float: right;
-        }
-    </style>
+    }
+</style>
 </head>
 
 <body id="page-top">
@@ -1118,46 +734,51 @@
 <!-- Begin Body Content-->
 <div class="container margintop30 bs-section">
     <div class="col-md-8 content_800" style="padding-right: 24px">
-        <div class="b bs-section">
-        <div class="hotel-list listing-style3 hotel">
-        <article class="box">
-            <div style="width: 100px; float: left; background: #cc9999; min-height: 130px; margin-left:3px; margin-right:3px">
-               <p>1</p>
-            </div>
-            <div class="col-sm-5 col-md-2">
-                <a href="" title="">
-                    <img width="140" height="130" src="img/common/country_hanoi.jpg" alt=""></a>
-            </div>
-            <div class="details col-sm-7 col-md-8">
-                <div>
-                    <div>
-                        <h4 class="box-title">Hotel Hilton and Resorts<small><i class="soap-icon-departure yellow-color"></i> Bastille, Paris france</small></h4>
-                        <div class="amenities">
-                            <i class="soap-icon-wifi circle"></i>
-                            <i class="soap-icon-fitnessfacility circle"></i>
-                            <i class="soap-icon-fork circle"></i>
-                            <i class="soap-icon-television circle"></i>
+        <div class="list-hotels bs-section">
+            <div class="bpt-item">
+                <div class="col-content">
+                    <div class="col-img">
+                        <div class="outerContainer">
+                            <div class="innerContainer">
+                                <div class="element color-white" style="font-size: 48px">1</div>
+                            </div>
                         </div>
+                        <a href="https://www.bestpricevn.com/Hotel_Hotel-de-lOpera-Hanoi.html" class="item-name">
+                            <img width="140px" height="158px" src="https://d22qrdzpcjtio1.cloudfront.net/images/hotels/210_158/hotel-de-lopera-hanoi2.jpg" class="img-responsive">
+                        </a>
                     </div>
-                    <div>
-                        <div class="five-stars-container">
-                            <span style="width: 80%;" class="five-stars"></span>
+
+                    <div class="col-info">
+                        <div class="margin-bottom-10">
+                            <h5 class="font15 nomarginpadding"><a href="">PASSION OF INDOCHINA, 20 DAYS</a></h5>
                         </div>
-                        <span class="review">270 reviews</span>
+                        <div class="row margin-bottom-5">
+                            <div class="col-label text-unhighlight">Code: PIV2342</div>
+                            <div class="text-unhighlight col-text">Tours: Join Group</div>
+                        </div>
+                        <div class="description">
+                            <p>A hotel with the décor of a theatre, in atmospheric Hanoï Located just few steps away from Hanoi’s beautiful Opera House, Hotel</p>	                    </div>
+                    </div>
+
+                    <div class="col-prices">
+                        <p style="color: #4e4e4e;font-size: 14px;text-decoration: line-through;" class="nomarginpadding">1.914</p>
+                        <p style="color: #d41200;font-size:16px" class="margintop3 marginbottom1 font-bold">1.423</p>
+                        <hr class="nomarginpadding" style="height: 1px;width: 45px">
+                        <p class="margintop5">Person</p>
                     </div>
                 </div>
-                <div>
-                    <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed vitae pulvinar massa idend porta nequetiam elerisque mi id, consectetur adipi deese cing elit maus fringilla bibe endum.</p>
+                <div class="col-price text-center">
                     <div>
-                        <span class="price"><small>AVG/NIGHT</small>$620</span>
-                        <a href="hotel-detailed.html" title="" class="button btn-small full-width text-center">SELECT</a>
+                        <i class="fa fa-thumbs-o-up text-success fa-2x"></i> <span class="text-success font-bold font16">4.7/5</span>
+                        <p class="text-success font-bold text-center">Very good</p>
                     </div>
+
+                    <button class="btn btn-xs btn-danger">View Trip <i class="fa fa-play"></i> </button>
                 </div>
             </div>
-        </article>
-        </div>
         </div>
     </div>
+    <!--right menu-->
     <div class="col-md-4 right_menu_328 text_right hidden-xs">
         <div class="row">
             <div class="col-md-12"
@@ -1227,8 +848,6 @@
         </div>
     </div>
 </div>
-
-
 <!--End Body Content-->
 
 

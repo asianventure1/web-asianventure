@@ -614,7 +614,7 @@
 <div class="container margintop30 bs-section">
     <div class="col-md-8 content_800" style="padding-right: 24px">
         <div class="row">
-            <div class="col-md-12">
+             <div class="col-md-12">
                 <img width="100%" height="300" src="img/portfolio/halong_1246x320.jpg">
                 <ul style="background: rgba(255,255,255,0.9); height: 45px; width: 220px; position: absolute; top:262px; left:
             60px;border: 1px solid #f2f2f2; border-radius: 5px; border-bottom: none">
@@ -655,84 +655,84 @@
         <!--see more vietnam tours -->
         <div class="row bs-section clear margintop20">
             <div class="col-md-12 mobile_marginleft4am">
-                <div class="jcarousel-skin-tango marginrightam12">
-                    <div class="jcarousel-container jcarousel-container-horizontal">
-                        <div class="jcarousel-clip jcarousel-clip-horizontal">
-                            <ul id="mycarousel" class="jcarousel-list jcarousel-list-horizontal">
-                                <li class="jcarousel-item fix-w-h">
-                                    <img src="img/common/tours_slider1.jpg">
-                                    <h6 class="title1">Ho Chi Minh</h6>
-                                    <h4 class="title2">20 Tours</h4>
+                        <div class="jcarousel-skin-tango marginrightam12">
+                            <div class="jcarousel-container jcarousel-container-horizontal">
+                                <div class="jcarousel-clip jcarousel-clip-horizontal">
+                                    <ul id="mycarousel" class="jcarousel-list jcarousel-list-horizontal">
+                                        <li class="jcarousel-item fix-w-h">
+                                            <img src="img/common/tours_slider1.jpg">
+                                            <h6 class="title1">Ho Chi Minh</h6>
+                                            <h4 class="title2">20 Tours</h4>
 
-                                </li>
+                                        </li>
 
-                                <li class="jcarousel-item jcarousel-item-horizontal fix-w-h"">
-                                <img src="img/common/tours_slider2.jpg">
-                                <h6 class="title1">muine</h6>
-                                <h4 class="title2">20 Tours</h4>
-                                </li>
+                                        <li class="jcarousel-item jcarousel-item-horizontal fix-w-h"">
+                                        <img src="img/common/tours_slider2.jpg">
+                                        <h6 class="title1">muine</h6>
+                                        <h4 class="title2">20 Tours</h4>
+                                        </li>
 
-                                <li class="jcarousel-item jcarousel-item-horizontal fix-w-h"">
-                                <img src="img/common/tours_slider3.jpg">
-                                <h6 class="title1">sapa</h6>
-                                <h4 class="title2">20 Tours</h4>
-                                </li>
+                                        <li class="jcarousel-item jcarousel-item-horizontal fix-w-h"">
+                                        <img src="img/common/tours_slider3.jpg">
+                                        <h6 class="title1">sapa</h6>
+                                        <h4 class="title2">20 Tours</h4>
+                                        </li>
 
-                                <li class="jcarousel-item jcarousel-item-horizontal fix-w-h"">
-                                <img src="img/portfolio/hoian_200x145.jpg">
-                                <h6 class="title1">hoian</h6>
-                                <h4 class="title2">20 Tours</h4>
-                                </li>
+                                        <li class="jcarousel-item jcarousel-item-horizontal fix-w-h"">
+                                        <img src="img/portfolio/hoian_200x145.jpg">
+                                        <h6 class="title1">hoian</h6>
+                                        <h4 class="title2">20 Tours</h4>
+                                        </li>
 
-                                <li class="jcarousel-item jcarousel-item-horizontal fix-w-h"">
-                                <img src="img/portfolio/sapa_200x145.jpg">
-                                <h6 class="title1">mai chau</h6>
-                                <h4 class="title2">20 Tours</h4>
-                                </li>
+                                        <li class="jcarousel-item jcarousel-item-horizontal fix-w-h"">
+                                        <img src="img/portfolio/sapa_200x145.jpg">
+                                        <h6 class="title1">mai chau</h6>
+                                        <h4 class="title2">20 Tours</h4>
+                                        </li>
 
-                                <li class="jcarousel-item jcarousel-item-horizontal fix-w-h"">
-                                <img src="img/portfolio/dalat_200x145.jpg">
-                                <h6 class="title1">dalat</h6>
-                                <h4 class="title2">20 Tours</h4>
-                                </li>
+                                        <li class="jcarousel-item jcarousel-item-horizontal fix-w-h"">
+                                        <img src="img/portfolio/dalat_200x145.jpg">
+                                        <h6 class="title1">dalat</h6>
+                                        <h4 class="title2">20 Tours</h4>
+                                        </li>
 
-                                <li class="jcarousel-item jcarousel-item-horizontal fix-w-h"">
-                                <img src="img/portfolio/hochiminh_200x145.jpg">
-                                <h6 class="title1">Ho Chi Minh</h6>
-                                <h4 class="title2">20 Tours</h4>
-                                </li>
+                                        <li class="jcarousel-item jcarousel-item-horizontal fix-w-h"">
+                                        <img src="img/portfolio/hochiminh_200x145.jpg">
+                                        <h6 class="title1">Ho Chi Minh</h6>
+                                        <h4 class="title2">20 Tours</h4>
+                                        </li>
 
-                                <li class="jcarousel-item jcarousel-item-horizontal fix-w-h"">
-                                <img src="img/portfolio/mekong_200x145.jpg">
-                                <h6 class="title1">mekong</h6>
-                                <h4 class="title2">20 Tours</h4>
-                                </li>
+                                        <li class="jcarousel-item jcarousel-item-horizontal fix-w-h"">
+                                        <img src="img/portfolio/mekong_200x145.jpg">
+                                        <h6 class="title1">mekong</h6>
+                                        <h4 class="title2">20 Tours</h4>
+                                        </li>
 
-                                <li class="jcarousel-item jcarousel-item-horizontal fix-w-h"">
-                                <img src="img/portfolio/cuchi_200x145.jpg" >
-                                <h6 class="title1">cu chi</h6>
-                                <h4 class="title2">20 Tours</h4>
-                                </li>
+                                        <li class="jcarousel-item jcarousel-item-horizontal fix-w-h"">
+                                        <img src="img/portfolio/cuchi_200x145.jpg" >
+                                        <h6 class="title1">cu chi</h6>
+                                        <h4 class="title2">20 Tours</h4>
+                                        </li>
 
-                                <li class="jcarousel-item jcarousel-item-horizontal fix-w-h"">
-                                <img src="img/portfolio/phuquoc_200x145.jpg">
-                                <h6 class="title1">phu quoc</h6>
-                                <h4 class="title2">20 Tours</h4>
-                                </li>
+                                        <li class="jcarousel-item jcarousel-item-horizontal fix-w-h"">
+                                        <img src="img/portfolio/phuquoc_200x145.jpg">
+                                        <h6 class="title1">phu quoc</h6>
+                                        <h4 class="title2">20 Tours</h4>
+                                        </li>
 
-                            </ul>
+                                    </ul>
+
+                                </div>
+
+                                <div class="jcarousel-prev jcarousel-prev-horizontal" style="display: block;"></div>
+
+                                <div class="jcarousel-next jcarousel-next-horizontal" style="display: block;"></div>
+
+                            </div>
 
                         </div>
 
-                        <div class="jcarousel-prev jcarousel-prev-horizontal" style="display: block;"></div>
-
-                        <div class="jcarousel-next jcarousel-next-horizontal" style="display: block;"></div>
-
                     </div>
-
-                </div>
-
-            </div>
         </div>
     </div>
     <div class="col-md-4 right_menu_328 text_right hidden-xs">
